@@ -2,10 +2,7 @@ body {
   position: relative;
   color: white;
   background-color: #f44271;
-}
-
-.container-fluid {
-  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #about-pg {
@@ -17,6 +14,7 @@ body {
 
 .about-text-div {
   /*   background-color:  #f44271; */
+  /* font-family: 'IBM Plex Serif:300', serif; */
   font-size: 1.1rem;
   opacity: 0.85;
   margin: 10px 0 10px 0;
@@ -35,12 +33,13 @@ body {
 
 .card {
   /*   width: 20rem; */
+  max-width: 250px;
   border-width: 0;
-  margin: 10px 10px 10px 0;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 .card-body {
-  padding: 0;
   background-color: white;
   color: #f44271;
 }

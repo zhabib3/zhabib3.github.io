@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Montserrat:300|Slabo+27px" rel="stylesheet">>
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <h1>Hello, world!</h1>
+<body class="container-fuid" data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
     <a class="navbar-brand" href="#">Portfolio</a>
     <ul class="navbar-nav">
@@ -27,43 +27,41 @@
     </ul>
   </nav>
 
-  <div class="text-center container-fluid">
 
-    <div class="container-fluid text-center" id="about-pg">
-      <h3>&lt!-- Hi! I'm,</h3>
-      <h1 class="name-header text-center">Zeeshan Habib /&gt</h1>
+  <div class="container text-center" id="about-pg">
+    <h3>&lt!-- Hi! I'm,</h3>
+    <h1 class="name-header text-center">Zeeshan Habib /&gt</h1>
 
-      <div class="text-center row container-fuid">
+    <div class="text-center row">
 
-        <div class="col-sm-3 card-column">
-          <div class="card">
-            <div class="card-body">
-              <p>Software Engineer Extraordinaire</p>
-              <small>(In the making)</small>
-            </div>
-            <img style="filter:grayscale(100%)" class="img-fluid card-img-bottom" src="assets/profile-img.jpg">
+      <div class="col-sm-3 card-column">
+        <div class="card">
+          <img id="profile-img" style="filter:grayscale(100%)" class="img-fluid card-img-top" src="assets/profile-img-small.png">
+          <div class="card-body text-left">
+            <p>Computer Science student at University of Florida. Follow me or Contact me via any of these links below!</p>
           </div>
         </div>
+      </div>
 
-        <div class="bg-dark jumbotron about-text-div col jumbotron-fluid">
-          <div class="container">
-            <h1>Welcome!</h1>
-            <p class="text-left lead">This here is my personal portfolio where you will find a collection of coding projects I have made and a log of programming knowledge I gain as I go through my studies. I am enthusiastic about Software Enigneering and technology in general.
-              This portfolio serves as a space to showcase my progress.</p>
-            <a style="color:#1dcaff" target="_blank" href="https://twitter.com/zeeshan_hasnani" role="button" class="btn btn-lg btn-dark"><i class="fab fa-twitter-square"></i> Twitter</a>
-          </div>
+      <div class="bg-dark jumbotron about-text-div col jumbotron-fluid">
+        <div class="container">
+          <h1>Welcome!</h1>
+          <p class="text-left lead">This here is my personal portfolio where you will find a collection of coding projects I have made and a log of programming knowledge I gain as I go through my studies. I am enthusiastic about Software Enigneering and technology in general.
+            This portfolio serves as a space to showcase my progress.</p>
+          <a style="color:#1dcaff" target="_blank" href="https://twitter.com/zeeshan_hasnani" role="button" class="btn btn-lg btn-dark"><i class="fab fa-twitter-square"></i> Twitter</a>
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="projects-pg">
+  </div>
+
+  <div class="container-fluid" id="projects-pg">
+    <h3>Projects</h3>
+    <p>Below you will find some of the projects I have designed</p>
+
+    <div class="container-fluid" id="placeholder-pg">
       <h3>Projects</h3>
       <p>Below you will find some of the projects I have designed</p>
 
-      <div class="container-fluid" id="placeholder-pg">
-        <h3>Projects</h3>
-        <p>Below you will find some of the projects I have designed</p>
-
-      </div>
     </div>
   </div>
 
