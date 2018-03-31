@@ -1,0 +1,46 @@
+body {
+  position: relative;
+  color: white;
+  background-color: #f44271;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#about-pg {
+  width: 80%;
+  padding: 10px;
+  margin-top: 60px;
+  background-color: #f44271;
+}
+
+.about-text-div {
+  /*   background-color:  #f44271; */
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+
+.card-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-header {
+  margin-bottom: 50px;
+}
+
+.card {
+  /*   width: 20rem; */
+  border-width: 0;
+  margin: 10px 10px 10px 0;
+}
+
+.card-body {
+  padding: 0;
+  background-color: white;
+  color: #f44271;
+}
