@@ -29,16 +29,16 @@ body {
   margin-bottom: 50px;
 }
 
-.card {
+#about-pg .card {
   max-width: 250px;
   border-width: 0;
   margin: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
-.card-body {
+#about-pg .card-body {
   background-color: white;
-  color: #f44271;
+  color: #B2DFDB;
 }
 
 .link-group a {
@@ -51,4 +51,25 @@ body {
   margin-bottom: 60px;
   color: black;
   background-color: #FFFFFF;
+}
+
+#projects-pg .card {
+  color: white;
+  background-color: #343A40;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#projects-pg .card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+#projects-pg a {
+  color: white;
+}
+
+#projects-pg a:hover {
+  text-decoration: none;
 }
