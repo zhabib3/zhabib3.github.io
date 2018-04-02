@@ -6,15 +6,13 @@ body {
 }
 
 #about-pg {
-  width: 80%;
-  padding: 10px;
+  padding: 10px 30px 10px 30px;
   margin-top: 60px;
+  margin-bottom: 60px;
   background-color: #f44271;
 }
 
 .about-text-div {
-  /*   background-color:  #f44271; */
-  /* font-family: 'IBM Plex Serif:300', serif; */
   font-size: 1.1rem;
   opacity: 0.85;
   margin: 10px 0 10px 0;
@@ -32,7 +30,6 @@ body {
 }
 
 .card {
-  /*   width: 20rem; */
   max-width: 250px;
   border-width: 0;
   margin: 10px;
@@ -48,5 +45,10 @@ body {
   border-radius: 0px;
 }
 
-.link-col {
+#projects-pg {
+  padding: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: black;
+  background-color: #FFFFFF;
 }
