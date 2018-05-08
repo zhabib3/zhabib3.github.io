@@ -3,6 +3,7 @@ body {
   color: white;
   background-color: #f44271;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 #about-pg {
@@ -17,6 +18,7 @@ body {
   opacity: 0.85;
   margin: 10px 0 10px 0;
   padding: 10px;
+  font-weight: 300;
 }
 
 .card-column {
@@ -34,6 +36,7 @@ body {
   border-width: 0;
   margin: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 400;
 }
 
 #about-pg .card-body {
@@ -55,11 +58,12 @@ body {
 }
 
 #projects-pg .card {
+  color: black;
   border-radius: 0px;
-  color: white;
-  background-color: #343A40;
+  background-color: #FFFFFF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
   margin: 10px;
   max-width: 400px;
@@ -68,15 +72,21 @@ body {
   margin-right: auto;
 }
 
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #projects-pg .card:hover {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
-  background-color: #224b75;
+  background-color: #f44271;
 }
 
 #projects-pg a {
-  color: white;
+  color: black;
 }
 
 #projects-pg a:hover {
   text-decoration: none;
+  color: white;
 }
