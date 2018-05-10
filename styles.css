@@ -53,7 +53,7 @@ body {
   margin-top: 60px;
   margin-bottom: 60px;
   color: black;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   align-items: center;
 }
 
@@ -89,4 +89,27 @@ body {
 #projects-pg a:hover {
   text-decoration: none;
   color: white;
+}
+
+.contact-block {
+  margin: 30 20 30 20;
+  padding: 20px;
+}
+
+.contact-block h1 {
+  margin-top: 40px;
+}
+
+form {
+  max-width: 600px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #15213d;
+  margin-top: 50px;
+  color: rgb(237, 234, 247);
+  padding: 10px;
+  font-weight: lighter;
 }

@@ -15,9 +15,9 @@
 
 </head>
 
-<body class="container-fuid" data-spy="scroll" data-target=".navbar" data-offset="0">
+<body class="container-fuid" data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Portfolio</a>
+    <a class="navbar-brand" href="/"><img style="max-width:30px" src="assets/favicon.png" alt="favicon" class="iimg-fluid"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
  </button>
@@ -90,6 +90,28 @@
             <th scope="col">Description</th>
           </tr>
         </thead>
+
+        <tbody class="description">
+          <tr>
+            <td>
+              <div class="card">
+                <a target="_blank" role="button" href="https://zeeiscoding.000webhostapp.com">
+                  <img class="card-img-top" src="assets/zeeiscoding.png" alt="Personal Blog">
+                  <div class="card-body">
+                    <h5 class="card-title">ZeeIsCoding</h5>
+                    <p> <span class = "badge badge-info"> Wordpress </span> <span class="badge badge-primary"> HTML5 </span>  <span class="badge badge-warning"> CSS3 </span>
+                      <span class="badge badge-light"> PHP </span></p>
+                  </div>
+                  </a>
+              </div>
+            </td>
+
+            <td>
+              <p class="text-left"> A personal blog that I deployed via Wordpress CMS serves as a handy journal of a kind where I occasionally log my experiences related to software development or general computer science topics. I coded my own custom theme for the blog, and
+                used PHP and other Wordpress functions to manage the backend.<br><br>If you'd like to check out my rants, please head to the link on the left!</p>
+            </td>
+          </tr>
+        </tbody>
 
         <tbody class="description">
           <tr>
@@ -186,17 +208,31 @@
       </table>
     </div>
 
-    <div class="container" id="contact-pg">
-      <form method="POST" action="https://formspree.io/zeeshanamin3@gmail.com">
-        <div class="form-group">
-          <label for="Email">Your Name</label>
-          <input type="text" name="Name" placeholder="Billy The Kid">
-        </div>
-      </form>
-    </div>
-
   </div>
 
+  <div class="container contact-block" id="contact-pg">
+    <h1 class="display-4">Wanna Get in Touch?</h1>
+    <form class="" method="POST" action="https://formspree.io/zeeshanamin3@gmail.com">
+      <div class="form-group ">
+        <label for="name">Your Name</label>
+        <input name="Sender Name" type="text" class="form-control" id="name" aria-describedby="nameHelp">
+      </div>
+      <div class="form-group">
+        <label for="email-id">Your Email address</label>
+        <input name="Sender Email" type="email" class="form-control" id="email-id" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="text-area">Your Message</label>
+        <textarea name="Message" type="text" class="form-control" id="text-area"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="footer container-fuid text-center">
+    <p>Coded with <i class="fas fa-heart"></i></p>
+    <p>Zeeshan Habib &copy; 2018</p>
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
