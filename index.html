@@ -12,10 +12,11 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,300" rel="stylesheet">
   <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
+  <script src="./app.js"></script>
 
 </head>
 
-<body class="container-fuid" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body onresize="toggleDesc()" class="container-fuid" data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
     <a class="navbar-brand" href="/"><img style="max-width:30px" src="assets/favicon.png" alt="favicon" class="img-fluid"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +91,7 @@
         <thead>
           <tr>
             <th scope="col">Links</th>
-            <th scope="col">Description</th>
+            <th class= "desc" scope="col">Description</th>
           </tr>
         </thead>
 
@@ -108,7 +109,7 @@
               </div>
             </td>
 
-            <td>
+            <td class="desc">
               <p class="text-left"> The base idea for the game took inspiration from the movie "Gravity" where the astronauts get trapped in the orbit and space debris threatens to pummel them at every revolution. In AstroBoi the behemoth-like shrapnel inching towards the player from beneath provides a sense of urgency.<br><br>It was a great experience developing the game on Unity in a team of 4 and within the limited 40 hour duration of Gator Game Jam 2018. In my role as Game engineer, I developed scripts for the asteroids, game scoring and the menu UI.</p>
             </td>
           </tr>
@@ -129,7 +130,7 @@
               </div>
             </td>
 
-            <td class="description">
+            <td class="desc">
               <p class="text-left">TuneTable is a web app that intelligently generates a Spotify playlist based on genre and artist preferences. This app was built during the 36-hour hackathon, "SwampHacks 2018." I was part of a 3 person team and was responsible for the entirety
                 of TuneTable's front-end.<br><br>Participating in my first hackathon was an amazing experience and I got to learn tons of stuff from my collaborators. The design theme for TuneTable is based on retrowave and I used a plethora of CSS to
                 give the UI a certain arcadey look. At the hackathon's conclusion, we presented our fully deployed app to fellow participants and judges; and while TuneTable did not win any prizes, I was thankful for the educational experience!</p>
@@ -152,7 +153,7 @@
             </td>
 
             <td>
-              <p class="text-left">Study Abroad is an Android App that acts as a step by step guide for students who are planning to apply for international colleges. Other than a brief overview of the process, the app also includes helpful links to other resources and a
+              <p class="text-left desc">Study Abroad is an Android App that acts as a step by step guide for students who are planning to apply for international colleges. Other than a brief overview of the process, the app also includes helpful links to other resources and a
                 custom search form. This app was the first fully fledged project I built and it truly made me fall in love with programming at the time.<br><br>I also designed the front-end from scratch, following through on Material design guidlines
                 to make it user accessible. Functionally the app is quite barebones but it allowed me to share my experiences with other prospective students.<br><br>It has garnered over 5900 installs to date on Google Play Store and I hope to update
                 it in future iterations to offer more helpful features.</p>
@@ -175,7 +176,7 @@
               </div>
             </td>
 
-            <td>
+            <td class="desc">
               <p class="text-left">One of my first projects in Web Development, Random Quote Machine is a simple bootstrap page that interfaces with an external quotes API via jQuery and displays it on the front-end. The site also allows the user to tweet the quote via generating
                 a POST request to the Twitter API.<br><br>This project also gave me an initial outlook of the Bootstrap framework and how it can be used to design clean and minimalistic UI. Click on the card to the left to be blown away by awesome quotes!</p>
             </td>
@@ -199,7 +200,7 @@
             </td>
 
             <td>
-              <p class="text-left ">Weather Gradient is a clean static webpage that displays user's current weather based on their location. I named it Gradient at the end due to the use of CSS color gradient in background (Creative right?!) This project was a casual coding
+              <p class="text-left desc">Weather Gradient is a clean static webpage that displays user's current weather based on their location. I named it Gradient at the end due to the use of CSS color gradient in background (Creative right?!) This project was a casual coding
                 exercise and uses external API to get weather data. Weather icons are displayed accordingly and with the use of jQuery, I was able to turn the temperature square into a button which switches from Fahrenheit to Celsius and vice versa.
               </p>
             </td>

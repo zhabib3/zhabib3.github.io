@@ -48,6 +48,10 @@ body {
   border-radius: 0px;
 }
 
+.desc {
+  display: block;
+}
+
 #projects-pg {
   padding: 30px;
   margin-top: 60px;
